@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0vw 10vw;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 5;
+}
+#logo{
+    width: 110px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+nav span{
+    color: white;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to bottom right,rgb(255,179,0),rgb(255,81,0));
+    display: flex;
+    justify-content: center;
+}
+#bottle{
+    font-size: 250px;
+    color: white;
+    margin-top: 200px;
+}
+#fanta{
+    width: 40%;
+    height: 50%;
+    margin-top: 200px;
+    position: absolute;
+    z-index: 1;
+}
+#slice{
+    width: 12%;
+    height: 25%;
+    position: absolute;
+    margin-top:130px ;
+    margin-right: 215px;
+}
+#orange{
+    width: 17%;
+    height: 35%;
+    position: absolute;
+    margin-top: 422px ;
+    margin-left: 215px;
+    z-index: 7;
+}
+#leaf{
+    width: 20%;
+    position: absolute;
+    top:8%;
+    left:5%;
+    transform: rotate(120deg);
+}
+#leaftwo{
+    position: absolute;
+    width: 20%;
+    top: 5%;
+    right: 30%;
+    transform: rotate(-50deg);
+}
+#multileaf{
+    width: 20%;
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 10px;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(88, 19, 19);
+    display: flex;
+}
+.lefttwo svg{
+    width: 400px;
+    margin-top: 200px;
+}
+.lefttwo{
+    width: 50%;
+    height: 100%;
+}
+.righttwo{
+    width: 50%;
+    height: 100%;
+    margin-top: 15%;
+}
+.righttwo h1{
+    color: white;
+    font-size: 70px;
+    margin: 30px 0px;
+}
+.righttwo p{
+    color: white;
+    padding-right: 50px;
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    background-color:orange ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    position: relative;
+    z-index: -1;
+} 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 70vh;
+    /* gap:3vh; */
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: #dae71e;
+    border-radius: 20px;
+    /* gap:3vh; */
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 50vh;
+}
+.card button{
+    font-size: 1vw;
+    padding: 1vw 3vw;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+.card:nth-child(2){
+    background-color: #fff;
+}
+.card:nth-child(3){
+    background-color: rgb(223, 134, 149);
+}
+.card:nth-child(1){
+    background-color: rgb(74, 74, 188);
+}
+#coke{
+    width: 45%;
+    position: absolute;
+    top: 30%;
+}
+#lemon{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+}
+#pepsi{
+    width: 25%;
+    position: absolute;
+    top: 25%;
+}
+.four{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background: linear-gradient(to bottom right,orange,rgba(214,214,21,0.974));
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15%;
+}
+.four p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    width: 75%;
+}
+#twit{
+    width: 3%;
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 220px;
+}
+#insta{
+    width: 2%;
+    position: absolute;
+    margin-top: 300px;
+}
+#face{
+    width: 3%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 220px;
+}
